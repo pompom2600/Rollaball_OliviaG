@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce;
     public float MoveSpeed = 2;
     int score = 0;
+    public Text DisplayText;
+    public Color WinningColour;
 
 
     void Start()
@@ -30,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical") * MoveSpeed;
         Rb.AddForce(x, 0, z);
 
+       
     }
 
 
@@ -44,13 +48,13 @@ public class PlayerMovement : MonoBehaviour
             print ("Chocolate");
             Destroy(other.gameObject);
             score = score + 1;
-            print("Score is " + score);
+            DisplayText.text = "Count = " + score;
 
             if (score == 8)
             {
 
-                print("Winner Winner Chicken Dinner");
-
+                DisplayText.text = " You Win Yay! ";
+                DisplayText.color = WinningColour;
             }
 
         }
