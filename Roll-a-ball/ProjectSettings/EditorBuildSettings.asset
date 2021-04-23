@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/RollaBall.unity
+    guid: 132720197af2b9b4d8de40c67f117d47
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 13517cf74625fcd47aa4bd565b3908b7
+  - enabled: 1
+    path: Assets/Scenes/RollaBall_V2.unity
+    guid: 944758414dde52441bbd9e0a6a8488a2
+  - enabled: 1
+    path: Assets/Scenes/RollaBall_V2_LVL2.unity
+    guid: 96e22890196864442800b848a86d5728
   m_configObjects: {}

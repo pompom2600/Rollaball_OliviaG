@@ -14,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     public Color WinningColour;
 
 
+
+
+
     void Start()
     {
         Rb = GetComponent<Rigidbody>();
@@ -21,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
  
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKeyDown("space"))
         {
