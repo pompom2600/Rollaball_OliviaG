@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Roll-a-ball/Assets/Prefab/Grid.prefab.meta
 guid: 0953b69f3c11fd043a2d8970aa3e423b
+=======
+guid: 2b3a05063a3f64f4c8345f9d55fa5e52
+>>>>>>> 3797b32a2aa2e0f78b2dc9cf79c533e72f068625:Roll-a-ball/Assets/Prefab/InsideCorner.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
