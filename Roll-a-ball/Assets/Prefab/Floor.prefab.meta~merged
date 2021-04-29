@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 9703942ff130e7949af83c82e01c43ae
+=======
+<<<<<<< HEAD:Roll-a-ball/Assets/Prefab/Booster.prefab.meta
+guid: c18d211f2234dd140bfb5c04a6d164af
+=======
+guid: 9703942ff130e7949af83c82e01c43ae
+>>>>>>> 3797b32a2aa2e0f78b2dc9cf79c533e72f068625:Roll-a-ball/Assets/Prefab/Floor.prefab.meta
+>>>>>>> 3797b32a2aa2e0f78b2dc9cf79c533e72f068625
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
